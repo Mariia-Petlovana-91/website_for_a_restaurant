@@ -1,0 +1,26 @@
+{
+  "name": "website_for_a_restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariia-Petlovana-91/website_for_a_restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mariia-Petlovana-91/website_for_a_restaurant/issues"
+  },
+  "homepage": "https://github.com/Mariia-Petlovana-91/website_for_a_restaurant#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
