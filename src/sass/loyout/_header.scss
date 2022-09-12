@@ -1,0 +1,45 @@
+.header__el{
+      background-image: url(/src/images/hero-mob.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      max-width: 320px;
+}
+.hero{
+      padding: 252px 22px 252px 22px;
+}
+.hero__title{
+      margin-bottom: 27px;
+font-family: 'Tinos';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+color: $accentColorTwo;
+text-align: center;
+&--el-one{
+  font-size: 40px;
+ line-height: 46px;
+}
+&--el-two{
+font-family: 'Open Sans';
+font-size: 25px;
+line-height: 30px;
+color: $textColorWhite;
+
+}
+}
+.hero__btn{
+ margin: auto;
+background-color: $accentColorOne;
+padding: 14px 44px 14px 44px;
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 19px;
+color: $textColorWhite;
+&:hover,&focus{
+      background-color: $accentColorTwo;
+}
+}

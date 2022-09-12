@@ -1,1 +1,2 @@
-console.log("dfdjfkd");
+
+import './src/sass/main.scss'

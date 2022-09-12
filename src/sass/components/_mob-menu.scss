@@ -1,0 +1,73 @@
+    .is-hidden {
+      visibility: hidden;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .mob-menu{
+      background-color:$accentColorThree ;
+      position: fixed;
+      z-index: 100;
+      width: 100vw;
+      height: 100vh;
+    }
+    .mob-menu__el{
+      padding: 25px 10px 0px 10px;
+      display: flex;
+      flex-direction: row;
+      justify-items: center;
+    }
+    .mob-menu__logo{
+      margin-right: auto;
+    }
+    .mob-menu.is-open {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: all;
+    }
+  
+    .mob-menu__btn{
+      fill: $accentColorOne;
+      &--close{
+        margin-right: 15px;
+      }
+      &:hover,&focus{
+        fill: $accentColorTwo;
+      }
+     
+    }
+    .mob-menu__list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .mob-menu__link{
+      font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 19px;
+color: $textColorWhite;
+&--tel{
+  font-size: 18px;
+line-height: 25px;
+}
+&:hover,&focus{
+  color: $accentColorTwo;
+}
+    }
+.mob-menu__icon-card,.mob-menu__icon-pfone{
+  fill: $accentColorOne;
+}
+.mob-menu__text{
+  text-align: center;
+  font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+color: $textColorWhite;
+}
+.mob-menu__icon{
+  display: flex;
+  justify-content:space-around;
+}
